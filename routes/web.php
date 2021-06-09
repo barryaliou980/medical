@@ -25,5 +25,3 @@ Route::get('/contacts', function () {
 Route::get('/carrieur', function () {
     return view('pages/carrer');
 });
-
-Route::get('/sendMail', mailController@index);
