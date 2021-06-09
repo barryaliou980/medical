@@ -7,34 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="icon" type="image/png" href="/assets/images/favicon-medical.png">
     <!--main file-->
-	<link href="{{asset('assets/css/medical-guide.css')}}" rel="stylesheet" type="text/css">
+	<link href="{{secure_asset('assets/css/medical-guide.css')}}" rel="stylesheet" type="text/css">
     <!--Medical Guide Icons-->
-	<link href="{{asset('assets/fonts/medical-guide-icons.css')}}" rel="stylesheet" type="text/css">
+	<link href="{{secure_asset('assets/fonts/medical-guide-icons.css')}}" rel="stylesheet" type="text/css">
 	<!-- Default Color-->
-	<link href="{{asset('assets/css/default-color.css')}}" rel="stylesheet" id="color"  type="text/css">
+	<link href="{{secure_asset('assets/css/default-color.css')}}" rel="stylesheet" id="color"  type="text/css">
     <!--bootstrap-->
-	<link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet" type="text/css">
+	<link href="{{secure_asset('assets/css/bootstrap.css')}}" rel="stylesheet" type="text/css">
     <!--Dropmenu-->
-	<link href="{{asset('assets/css/dropmenu.css')}}" rel="stylesheet" type="text/css">
+	<link href="{{secure_asset('assets/css/dropmenu.css')}}" rel="stylesheet" type="text/css">
 	<!--Sticky Header-->
-	<link href="{{asset('assets/css/sticky-header.css')}}" rel="stylesheet" type="text/css">
+	<link href="{{secure_asset('assets/css/sticky-header.css')}}" rel="stylesheet" type="text/css">
 	<!--revolution-->
-	<link href="{{asset('assets/css/style.css')}}" rel="stylesheet" type="text/css">    
-    <link href="{{asset('assets/css/settings.css')}}" rel="stylesheet" type="text/css">    
-    <link href="{{asset('assets/css/extralayers.css')}}" rel="stylesheet" type="text/css">    
+	<link href="{{secure_asset('assets/css/style.css')}}" rel="stylesheet" type="text/css">    
+    <link href="{{secure_asset('assets/css/settings.css')}}" rel="stylesheet" type="text/css">    
+    <link href="{{secure_asset('assets/css/extralayers.css')}}" rel="stylesheet" type="text/css">    
     <!--Accordion-->
-    <link href="{{asset('assets/css/accordion.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{secure_asset('assets/css/accordion.css')}}" rel="stylesheet" type="text/css">
     <!--tabs-->
-	<link href="{{asset('assets/css/tabs.css')}}" rel="stylesheet" type="text/css">    
+	<link href="{{secure_asset('assets/css/tabs.css')}}" rel="stylesheet" type="text/css">    
     <!--Owl Carousel-->
-	<link href="{{asset('assets/css/owl.carousel.css')}}" rel="stylesheet" type="text/css">    
+	<link href="{{secure_asset('assets/css/owl.carousel.css')}}" rel="stylesheet" type="text/css">    
     <!-- Mobile Menu -->
-	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/jquery.mmenu.all.css')}}" />
-	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/demo.css')}}" />
+	<link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/jquery.mmenu.all.css')}}" />
+	<link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/demo.css')}}" />
 	<!--PreLoader-->
-	<link href="{{asset('assets/css/loader.css')}}" rel="stylesheet" type="text/css">    
+	<link href="{{secure_asset('assets/css/loader.css')}}" rel="stylesheet" type="text/css">    
     <!--switcher-->
-	<link href="{{asset('assets/css/switcher.css')}}" rel="stylesheet" type="text/css">
+	<link href="{{secure_asset('assets/css/switcher.css')}}" rel="stylesheet" type="text/css">
 </head>
   <body>	
   <div id="wrap">
@@ -216,26 +216,26 @@
    <!--End Footer-->
 <a href="index3.html#0" class="cd-top"></a>
   </div>
-<script type="text/javascript" src="{{asset('assets/js/jquery.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/jquery.js')}}"></script>
 <!-- SMOOTH SCROLL -->	
-<script type="text/javascript" src="{{asset('assets/js/scroll-desktop.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/js/scroll-desktop-smooth.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/scroll-desktop.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/scroll-desktop-smooth.js')}}"></script>
 <!-- START REVOLUTION SLIDER -->	
-<script type="text/javascript" src="{{asset('assets/js/jquery.themepunch.revolution.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/js/jquery.themepunch.tools.min.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/jquery.themepunch.revolution.min.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/jquery.themepunch.tools.min.js')}}"></script>
 <!-- Date Picker and input hover -->
-<script type="text/javascript" src="{{asset('assets/js/classie.js')}}"></script> 
-<script type="text/javascript" src="{{asset('assets/js/jquery-ui-1.10.3.custom.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/classie.js')}}"></script> 
+<script type="text/javascript" src="{{secure_asset('assets/js/jquery-ui-1.10.3.custom.js')}}"></script>
 <!-- Fun Facts Counter -->
-<script type="text/javascript" src="{{asset('assets/js/counter.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/counter.js')}}"></script>
 <!-- Welcome Tabs -->	
-<script type="text/javascript" src="{{asset('assets/js/tabs.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/tabs.js')}}"></script>
 <!-- All Carousel -->
-<script type="text/javascript" src="{{asset('assets/js/owl.carousel.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/owl.carousel.js')}}"></script>
 <!-- Mobile Menu -->
-<script type="text/javascript" src="{{asset('assets/js/jquery.mmenu.min.all.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('assets/js/jquery.mmenu.min.all.js')}}"></script>
 <!-- All Scripts -->
-<script type="text/javascript" src="{{asset('assets/js/custom.js')}}"></script> 
+<script type="text/javascript" src="{{secure_asset('assets/js/custom.js')}}"></script> 
 <!-- Revolution Slider -->	
 <script type="text/javascript">
 jQuery('.tp-banner').show().revolution(
