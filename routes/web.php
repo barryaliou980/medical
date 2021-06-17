@@ -14,14 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages/home');
+    return view('pages/content');
 });
-Route::get('/apropos', function () {
-    return view('pages/aboutUs');
-});
-Route::get('/contacts', function () {
-    return view('pages/contacts');
-});
-Route::get('/carrieur', function () {
-    return view('pages/carrer');
+
+Route::get('/calendar', function () {
+    return view('pages/calendar');
 });
