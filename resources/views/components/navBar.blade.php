@@ -11,7 +11,7 @@
                        <li class="nav-item"><a class="nav-link" href="/#valeur">Nos Valeurs</a></li>
                         <li class="nav-item"><a class="nav-link" href="/#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="/#postuler">Postuler</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/calendar">Calendrier</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/calendar">Agenda Pro</a></li>
                     </ul>
                 </div>
             </div>

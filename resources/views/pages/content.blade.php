@@ -41,28 +41,28 @@
     <h2 class="pb-2 border-bottom">Nos valeurs</h2>
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div style=" text-align: center; padding:2" class=" col-lg-3">
-            <div class="card card-cover h-80 overflow-hidden text-white valeur rounded-5 shadow-lg">
+            <div class="card card-cover h-80 overflow-hidden text-white valeur1 rounded-5 shadow-lg">
           <div class="d-flex flex-column h-80 p-5 pb-3 text-white text-shadow-1">
             <h2 style="font-weight: bold" class="pb-2 border-bottom text-light">L’efficience</h2>
           </div>
         </div>  
         </div>
           <div style="text-align: center;" class=" col-lg-3">
-            <div class="card card-cover h-80 overflow-hidden text-white valeur rounded-5 shadow-lg" >
+            <div class="card card-cover h-80 overflow-hidden text-white valeur2 rounded-5 shadow-lg" >
           <div class="d-flex flex-column h-80 p-5 pb-3 text-white text-shadow-1">
              <h2 style="font-weight: bold" class="pb-2 border-bottom text-light">L’expérience</h2>
           </div>
         </div>  
         </div>
           <div style="text-align: center;" class=" col-lg-3">
-            <div class="card card-cover h-80 overflow-hidden text-white valeur rounded-5 shadow-lg" >
+            <div class="card card-cover h-80 overflow-hidden text-white valeur3 rounded-5 shadow-lg" >
           <div class="d-flex flex-column h-80 p-5 pb-3 text-white text-shadow-1">
              <h2 style=" ; font-weight: bold" class="pb-2 border-bottom text-light">La confiance</h2>
           </div>
         </div>  
         </div>
           <div style="text-align: center;"  class=" col-lg-3">
-            <div class="card card-cover h-80 overflow-hidden text-white valeur rounded-5 shadow-lg" >
+            <div class="card card-cover h-80 overflow-hidden text-white valeur4 rounded-5 shadow-lg" >
           <div class="d-flex flex-column h-80 p-5 pb-3 text-white text-shadow-1">
              <h2 style="font-weight: bold" class="pb-2 border-bottom text-light">L’intégrité</h2>
           </div   >
@@ -206,8 +206,8 @@
                             <div class="row">
                                 <select style="height: 50px" class="form col m-1">
                                     <option>Objet de votre message</option>
-                                     <option>Contacte </option>
-                                      <option>postule </option>
+                                     <option>Contact </option>
+                                      <option>postuler </option>
                                 </select>
                                 <select  style="height: 50px" class="form col m-1">
                                      <option>Specification</option>
