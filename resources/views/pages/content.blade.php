@@ -113,8 +113,8 @@
 
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div class="container ">
+                <div class="row gx-0 justify-content-center">
                     <div class="container justify-content-center">
                         <h2 class="pb-2 border-bottom">Notre engagement</h2>
                     </div>
@@ -133,7 +133,7 @@
                 </div>
             <br/>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center text-center">
+                {{-- <div class="row gx-0 justify-content-center text-center">
                     <div class="col-lg-6"><img class="img-fluid" src="/assets/img/wentia4.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                        <!-- Featured Project Row-->
                 {{-- <div class="row gx-0 mb-4 mb-lg-5 mt-5 align-items-center" id="valeurs">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/wentia2.jpg" alt="..." /></div>
