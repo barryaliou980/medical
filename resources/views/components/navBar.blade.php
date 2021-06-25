@@ -9,7 +9,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/#about">A propos</a></li>
                        <li class="nav-item"><a class="nav-link" href="/#valeur">Nos Valeurs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/#projects">Engagement</a></li>
                         <li class="nav-item"><a class="nav-link" href="/#postuler">Postuler</a></li>
                         <li class="nav-item"><a class="nav-link" href="/calendar">Agenda Pro</a></li>
                     </ul>

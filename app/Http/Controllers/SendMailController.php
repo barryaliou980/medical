@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\File;
-
+use Alert;
 
 class SendMailController extends Controller
 {
@@ -70,7 +70,7 @@ class SendMailController extends Controller
                 $message->subject($data['subject']);
             });
         }
-
+        Alert::success('Succès', 'Merci de nous avoir écrit! nous repondrons dans les plus bref delais');
         return back()->with('success', 'Merci de nous avoir ecris! nous repondrons dans les plus bref delais');
     }
 

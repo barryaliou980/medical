@@ -15,7 +15,7 @@
     -webkit-background-clip: text;
     background-clip: text;" class="mx-auto my-0 text-uppercase"> Sérenité Santé</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">Nous sommes une agence de placement de Professionnel dans le domaine de la santé</h2>
-                <a class="btn btn-warning" href="">accéder à agendrix</a>
+                <a class="btn btn-warning" target="blanck" href="https://www.agendrix.com/fr">accéder à agendrix</a>
             </div>
         </div>
     </div>
