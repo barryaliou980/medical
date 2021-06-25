@@ -9,7 +9,7 @@
         <div class="d-flex justify-content-center">
             <div class="text-center">
                   <div class="mx-auto my-0 text-uppercase"> 
-                    <img style="width: 200px; heigth: " src="assets/logo.png" alt="..." />
+                    <img style="width: 350px; heigth: 350px" src="assets/logo.png" alt="..." />
                  </div>
                 <h1 class="mx-auto my-0 text-uppercase"> Sérenité Santé</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">Nous sommes une agence de placement de Professionnel dans le domaine de la santé</h2>
