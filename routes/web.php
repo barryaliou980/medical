@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SendMailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,8 @@ Route::get('/', function () {
 Route::get('/calendar', function () {
     return view('pages/calendar');
 });
+
+
+// Route::post('/sendmail', 'SendMailController@index');
+
+Route::post('/sendmail', [SendMailController::class, 'send'])->name('sendmail.send');

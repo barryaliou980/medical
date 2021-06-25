@@ -8,6 +8,9 @@
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
         <div class="d-flex justify-content-center">
             <div class="text-center">
+                     <div class="mx-auto my-0 text-uppercase"> 
+                    <img style="width: 200px; heigth: " src="assets/logo.png" alt="..." />
+                 </div>
                 <h1 style="    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;" class="mx-auto my-0 text-uppercase"> Sérenité Santé</h1>

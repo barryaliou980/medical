@@ -8,6 +8,9 @@
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
         <div class="d-flex justify-content-center">
             <div class="text-center">
+                  <div class="mx-auto my-0 text-uppercase"> 
+                    <img style="width: 200px; heigth: " src="assets/logo.png" alt="..." />
+                 </div>
                 <h1 class="mx-auto my-0 text-uppercase"> Sérenité Santé</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">Nous sommes une agence de placement de Professionnel dans le domaine de la santé</h2>
                 <a class="btn btn-warning" href="#postuler">Postuler ou nous contacter sans attendre </a>
@@ -118,7 +121,7 @@
                     <div class="container justify-content-center">
                         <h2 class="pb-2 border-bottom">Notre engagement</h2>
                     </div>
-                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/wentia3.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/wentia2.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -166,24 +169,40 @@
         <section>
 
             <div class="container my-5">
-                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-                <div class="col-lg-8 p-3 p-lg-5 pt-lg-3">
-                    <h2 class="display-6 fw-bold lh-1">Avantages de travailler avec nous</h2>
+                <div class="row p-4  align-items-center  border shadow-lg">
+                <div class="col-lg-7">
+                    <h2 class="display-6 fw-bold lh-2">Avantages de travailler avec nous</h2>
                     <hr/>
                     <p class="lead">Nous aimons la modernité, donc fini les feuilles de temps papiers. Tout est fait de manière électronique.<br/>
                             Horaire de travail flexible. Vous pourrez faire votre propre horaire.</p><p class="lead">
-                            Nous voulons que vous soyez à l’aise dans les milieux ou vous travaillerai, donc nous mettrons une emphase sur les endroits où vous avez plus d’expérience
-                            Le bien être de notre personnel nous tiens à cœur, c’est pourquoi nous offrons en encadrement personnalisé. <br/>
-                            Les conditions de travail sont optimales pour faciliter le rendement.<br/>
-                            Le salaire est très avantageux <br/>
-                            Une expérience différentes de tout ce que vous avez vécu que ce soit au public ou au privé
+                            Nous voulons que vous soyez à l’aise dans les milieux ou vous travaillerez, donc nous mettrons une emphase sur les endroits où vous avez le plus d’expérience:
+                
                         </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <a  href="#postuler" type="button" class="btn btn-warning btn-lg px-4 me-md-2 fw-bold">Contactez-nous</a>
+                        <ul class="list-group" type="circle">
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center"
+                        >
+                             -Les conditions de travail sont optimales pour faciliter le rendement.
+                        </li>
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center"
+                        >
+                            - Le salaire est très avantageux 
+
+                        </li>
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center"
+                        >
+                             - Une expérience différentes de tout ce que vous avez vécu que ce soit au public ou au privé
+
+                        </li>
+                        </ul> <br/>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-lg-3">
+                    <a  href="#postuler" type="button" class="btn btn-warning btn-lg  me-md-2 fw-bold">Contactez-nous</a>
                     </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                    <img class="rounded-lg-3" src="/assets/img/wentia3.jpg" alt="" height="500" width="675">
+                </div><br/>
+                <div class="col-lg-5 p-0 overflow-hidden shadow-lg">
+                    <img class="rounded-lg-3" src="/assets/img/wentia6.jpg" alt="" max-height="600" width="705">
                 </div>
                 </div>
             </div>
@@ -195,35 +214,43 @@
                     <div class=" mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x text-white"></i>
                         <h2 class="text-white mb-5">Présenter une candidature spontannée</h2>
-                        <form class="form-signup d-flex flex-column ">
+                        <form class="form-signup d-flex flex-column " action="{{url('/sendmail')}}" method="POST"  enctype="multipart/form-data">
+                            @csrf
                             <div class="row">
-                                <input class="form col m-1" id="inputEmail" type="text"placeholder="Nom" />
-                                <input class="form col m-1" id="inputEmail" type="text" placeholder="Prénom" />
+                                <input name="firstName" class="form col m-1" id="inputEmail" type="text"placeholder="Nom" />
+                                <input name="lastName" class="form col m-1" id="inputEmail" type="text" placeholder="Prénom" />
                             </div>
                             <div class="row">
-                                <input class="form col m-1" id="inputEmail" type="email" placeholder="Email" />
+                                <input name="email" class="form col m-1" id="inputEmail" type="email" placeholder="Email" />
                             </div>
                             <div class="row">
-                                <select style="height: 50px" class="form col m-1">
-                                    <option>Objet de votre message</option>
-                                     <option>Contact </option>
-                                      <option>postuler </option>
+                                  <select id="colorselector"  name="object" style="height: 50px" class="form-control m-1">
+                                      <option value="contact">Objet de votre message</option>
+                                      <option value="contact">Contact </option>
+                                      <option value="postuler">postuler </option>
                                 </select>
-                                <select  style="height: 50px" class="form col m-1">
-                                     <option>Specification</option>
-                                     <option>Infirmière </option>
-                                      <option>Infirmière auxiliaire </option>
-                                      <option>Pab</option>
+                            </div>
+                            <div class="row" class="colors" style="display:none" id="divid">
+                                <div class="col-md-6" >
+                                    <label for="formFileDisabled" class="form-label text-white ">Disabled file input example</label>
+                                      <select name="specialty"  style="height: 50px" class="form-control m-1">
+                                     <option value="Infirmière">Infirmière </option>
+                                      <option value="Infirmière auxiliaire">Infirmière auxiliaire </option>
+                                      <option value="Pab">Pab</option>
                                 </select>
-                                
+                                </div>
+                                <div class="col-md-6">
+                                 <label for="formFileDisabled" class="form-label text-white ">Disabled file input example</label>
+                                 <input class="form-control" type="file" id="formFileDisabled" name="cv" />
+                                </div>                                
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1 " class="form-label text-white mt-5">Votre message </label>
-                                <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="exampleFormControlTextarea1  " class="form-label text-white mt-5 ">Votre message </label>
+                                <textarea name="message" class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <div>
-                                <button class="btn btn-danger m-4" type="upload">upload CV</button>
-                                <button class="btn btn-warning" type="file">Envoyé</button>
+                                {{-- <input placeholder="votre cv" class="btn btn-danger m-4" type="file"/> --}}
+                                <button class="btn btn-warning" type="submit">Envoyé</button>
                             </div>
                         </form>
                     </div>
@@ -262,3 +289,5 @@
             </div>
         </section>
         @endsection
+
+
