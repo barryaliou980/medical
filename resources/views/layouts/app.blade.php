@@ -23,7 +23,7 @@
 
 
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Santé sécurité 2021 <a class="mx-2" href="">Created by Laguidev</a> </div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Sérenité Santé <?php echo date("Y"); ?>  <a class="mx-2" href="">Created by Laguidev</a> </div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>s
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>

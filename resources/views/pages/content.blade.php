@@ -281,6 +281,16 @@
                             </div>
                         </div>
                     </div>
+                      <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                 <i class="fas fa-briefcase-medical text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Numéro de permis  ( cnesst ) </h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">AP-2101577</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
