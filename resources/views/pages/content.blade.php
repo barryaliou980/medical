@@ -126,7 +126,7 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white"> Pourquoi travaillez avec Nous ? </h4>
+                                    <h4 class="text-white"> Pourquoi travailler avec Nous ? </h4>
                                     <p class="mb-0 text-white-50">Offrir un service adapté qui saura répondre à vos attentes. Nous vous offrirons du soutien, un bon salaire ainsi qu’un bon encadrement. Vous ne serez pas laissé a vous-même puisque nos services sont personnalisé. Vous pourrez ainsi aller travailler sereinement. </p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
